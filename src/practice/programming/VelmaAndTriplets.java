@@ -1,9 +1,10 @@
-package hiring;
+package practice.programming;
 
 import java.util.Scanner;
 
 /**
  * Created by asaxena on 10/21/2016.
+ * Question: https://www.hackerearth.com/practice/math/combinatorics/basics-of-combinatorics/practice-problems/algorithm/velma-and-triplets/
  */
 public class VelmaAndTriplets {
     public static void main(String args[] ) throws Exception {

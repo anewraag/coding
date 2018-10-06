@@ -1,10 +1,10 @@
-package hiring;
+package practice.programming;
 
 import java.io.*;
 import java.util.*;
 
 
-public class Solution {
+public class BalancedStack {
 
     static Map<Character,Character> pairValue;
     public static boolean isBalanced(String expression) {

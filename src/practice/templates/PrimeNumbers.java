@@ -1,10 +1,10 @@
-package hiring;
+package practice.templates;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Main {
+public class PrimeNumbers {
 
     boolean[] primes=new boolean[1000000];
     //set up the primesieve
@@ -23,7 +23,7 @@ public class Main {
     }
     public static void main(String args[] ) throws Exception {
 
-        Main obj = new Main();
+        PrimeNumbers obj = new PrimeNumbers();
         obj.fillSieve();
         ArrayList<Integer> safeStreet = new ArrayList();
         ArrayList<Integer> response = new ArrayList();
